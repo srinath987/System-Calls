@@ -1,1 +1,0 @@
-No assumtions were made.
