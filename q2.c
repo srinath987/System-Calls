@@ -22,8 +22,8 @@ int main(int argc, char **argv)
         exit(1);
     }
 
-    mkdir("Assignment", 0700);
-    char outFileAddress[50] = "./Assignment/2_";
+    mkdir("Outputs", 0700);
+    char outFileAddress[50] = "./Outputs/2_";
     if (strrchr(argv[1], '/') == NULL)
         strcat(outFileAddress, argv[1]);
     else
